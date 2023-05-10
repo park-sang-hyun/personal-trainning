@@ -3,8 +3,8 @@ import cx from 'classnames';
 import type { Dayjs } from 'dayjs';
 import { useDayjs, useWeekStartDayjs, useSwiper } from '@/hooks';
 import type { Direction } from '@/hooks';
-import { createDates } from './_worker';
-import { WeekViewDates } from './_components';
+import { createDates } from './Calendar/WeekView/_worker';
+import { WeekViewDates } from './Calendar/WeekView/_components';
 import styles from './WeekView.module.scss';
 
 interface WeekViewDatesProps {

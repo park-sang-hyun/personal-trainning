@@ -10,4 +10,8 @@ const useWeekDates = (
   return [dates, setDates];
 };
 
+const useViewMode = () => {
+  
+}
+
 export { useWeekDates };
